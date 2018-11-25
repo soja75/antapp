@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calcu3</string>
+    <string name="jugadores_por_equipo">Jugadores por equipo.</string>
+    <string name="hola">hola</string>
+    <string name="monto_total_de_la_cancha">Monto total de la cancha.</string>
+    <string name="total_de_asistencia">Total de asistencia</string>
+    <string name="cuanto_es">Cuanto es ?</string>
+    <string name="el_total_es">El total es:</string>
+    <string name="nombre_app">Cuanto es?</string>
+</resources>

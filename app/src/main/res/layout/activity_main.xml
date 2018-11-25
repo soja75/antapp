@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LabelFor"
+    android:id="@+id/lb1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="322dp"
+        android:layout_height="439dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/monto_cancha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/monto_total_de_la_cancha"
+            android:textAppearance="@android:style/TextAppearance.Material.Title" />
+
+        <EditText
+            android:id="@+id/monto_cancha_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.Material.Small"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/jugadores_cancha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jugadores_por_equipo"
+            android:textAppearance="@android:style/TextAppearance.Material.Title"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <EditText
+            android:id="@+id/jugadores_cancha_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.Material.Small"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/total_jugadores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_de_asistencia"
+            android:textAppearance="@android:style/TextAppearance.Material.Title" />
+
+        <EditText
+            android:id="@+id/total_jugadores_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.Material.Small"
+            tools:targetApi="o" />
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cuanto_es" />
+
+        <TextView
+            android:id="@+id/monto_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/el_total_es" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
